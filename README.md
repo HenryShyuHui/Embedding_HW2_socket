@@ -8,6 +8,7 @@ Name : 徐華佑
 https://github.com/HenryShyuHui/embedding_hw2_socket
 
 執行平台: B-L475E-IOT01A -2C
+
 server code 網址: https://github.com/HenryShyuHui/embedding_hw2_socket_modified_file/blob/main/server_cube.py
 
 1. 點入專案，在"mbed_app.json"中，修改hostname->value為自己電腦的IP位置；wifi-ssid修改為要連接網路的名稱；wifi-passward輸入該網路的密碼。
