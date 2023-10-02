@@ -8,11 +8,12 @@ Name : 徐華佑
 https://github.com/HenryShyuHui/embedding_hw2_socket
 
 執行平台: B-L475E-IOT01A -2C
+server code 網址: https://github.com/HenryShyuHui/embedding_hw2_socket_modified_file/blob/main/server_cube.py
 
 1. 點入專案，在"mbed_app.json"中，修改hostname->value為自己電腦的IP位置；wifi-ssid修改為要連接網路的名稱；wifi-passward輸入該網路的密碼。
 2. 將檔案build入stm32並執行。
 3. 即可連上網，並且開始傳送資料
-4. 將另一份提供的server.py檔下載，並且也將最上面的 HOST = '填入電腦的IP位置'
+4. 將另一份提供的server.py檔下載，並且也將最上面的 HOST = '填入電腦的IP位置' 
 5. 先執行server.py檔，再執行stm32，即可完成傳輸
 
 ps. 若無法執行成功，可以從下方來進行排除
